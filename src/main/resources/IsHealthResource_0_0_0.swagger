@@ -1,0 +1,178 @@
+{
+"swagger": "2.0",
+"info": {
+"title": "is-echo-health",
+"description": "is-echo-health",
+"version": "0.0.1-SNAPSHOT"
+},
+"host": "zew-api-np.travelport.com:443",
+"basePath": "/echohealth",
+"schemes": [
+"https",
+"https",
+"https",
+"https",
+"https",
+"https",
+"https",
+"https",
+"https",
+"https",
+"https",
+"https",
+"https",
+"https",
+"https",
+"https"
+],
+"paths": {
+"/management": {
+"get": {
+"description": "Provides all management endpoints for this service",
+"operationId": "management",
+"consumes": [
+"application/xml",
+"text/xml",
+"application/json"
+],
+"produces": [
+"application/xml",
+"text/xml",
+"application/json"
+],
+"responses": {
+"default": {
+"description": ""
+}
+},
+"deprecated": false,
+"x-media-type-request-default": "true",
+"showOperationDetails": "true",
+"x-media-type-response-default": "true"
+}
+},
+"/health": {
+"get": {
+"description": "gets the health properties for the this app",
+"operationId": "health",
+"consumes": [
+"application/xml",
+"text/xml",
+"application/json"
+],
+"produces": [
+"application/xml",
+"text/xml",
+"application/json"
+],
+"responses": {
+"default": {
+"description": ""
+}
+},
+"deprecated": false,
+"x-media-type-request-default": "true",
+"showOperationDetails": "true",
+"x-media-type-response-default": "true"
+}
+},
+"/greetings": {
+"get": {
+"description": "Get a GreetingService Rest response",
+"operationId": "greetings",
+"consumes": [
+"application/xml",
+"text/xml",
+"application/json"
+],
+"produces": [
+"application/xml",
+"text/xml",
+"application/json"
+],
+"responses": {
+"200": {
+"description": "",
+"schema": {}
+}
+},
+"deprecated": false,
+"x-media-type-request-default": "true",
+"showOperationDetails": "true",
+"x-media-type-response-default": "true"
+}
+},
+"/env": {
+"get": {
+"description": "Get the application's all environment variables",
+"operationId": "env",
+"consumes": [
+"application/xml",
+"text/xml",
+"application/json"
+],
+"produces": [
+"application/xml",
+"text/xml",
+"application/json"
+],
+"responses": {
+"200": {
+"description": "",
+"schema": {}
+}
+},
+"deprecated": false,
+"x-media-type-request-default": "true",
+"showOperationDetails": "true",
+"x-media-type-response-default": "true"
+}
+},
+"/swagger-ui.html": {
+"get": {
+"description": "Provides swagger ui with all supported operations",
+"operationId": "swagger-ui.html",
+"consumes": [
+"application/xml",
+"text/xml",
+"application/json"
+],
+"produces": [
+"application/xml",
+"text/xml",
+"application/json"
+],
+"responses": {
+"default": {
+"description": ""
+}
+},
+"deprecated": false,
+"x-media-type-request-default": "true",
+"showOperationDetails": "true",
+"x-media-type-response-default": "true"
+}
+},
+"/hello": {
+"get": {
+"operationId": "Default_Operation",
+"consumes": [
+"*/*"
+],
+"produces": [
+"*/*"
+],
+"responses": {
+"200": {
+"description": "successful operation",
+"schema": {}
+}
+},
+"deprecated": false,
+"x-media-type-request-default": "false",
+"showOperationDetails": "true",
+"x-media-type-response-default": "false"
+}
+}
+}
+}

@@ -1,0 +1,8 @@
+management:
+    security:
+        enabled: false
+is_field: development
+dev_env_value: anyValueYouLikeToSee
+endpoints:
+  actuator:
+    path: /management

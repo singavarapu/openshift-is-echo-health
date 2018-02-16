@@ -1,0 +1,9 @@
+management:
+    security:
+        enabled: false
+is_field: default
+#server:
+#  port: 8989
+endpoints:
+  actuator:
+    path: /management
