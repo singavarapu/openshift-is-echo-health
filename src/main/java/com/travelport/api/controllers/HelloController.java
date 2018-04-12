@@ -1,7 +1,6 @@
 package com.travelport.api.controllers;
  
 import com.travelport.api.services.GreetingService;
-import com.travelport.api.services.HealthUtil;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
