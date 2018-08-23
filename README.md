@@ -1,4 +1,4 @@
-# How to use this project
+# How to use this project-update
     1. Pull the project to local machine using git clone.
          ``git clone <project location>``
     2. cd to the directory
